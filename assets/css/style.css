@@ -1,0 +1,278 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+background-color: beige;
+
+}
+
+ 
+
+nav {
+  width: 80%;
+  height: 100vh;
+  padding: 1em 0;
+  font-size: 16px;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  left:-80%;
+  box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.show-nav{
+  left: 0!important;
+  
+  }
+
+nav a{
+  /*display: flex;
+  flex-direction: column;*/
+  width: 90px;
+  height: 35px;
+  font-size: 24px;
+  border: 1px solid;
+  border-radius: 5px;
+  color: black;
+  margin: 15px;
+   text-decoration: none;
+  font-weight: bold;
+}
+
+.hamburguer ion-icon{
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+
+}
+
+header{
+  background-image: url("../img/capa.jpg");
+  background-size:cover;
+  background-position:center;
+  margin: 0px;
+  height: 90vh;
+} 
+
+header div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1{
+  color: white;
+  width:100%;
+  text-align: center;
+  font-size: 60px;
+}
+
+header p{
+  color: white;
+  width:100%;
+  text-align:center;
+  font-size: 20px;
+}
+
+.header{
+  background-image: url("../img/capa.jpg");
+  background-size:cover;
+  background-position:center;
+  height: 20vh;
+}
+
+.header h1{
+  color: white;
+  width:90%;
+  text-align: left;
+  font-size: 30px;
+
+}
+
+section{
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  font-size: 45px;
+  text-align:center;
+}
+
+.txt{
+  text-align: center;
+  font-size: 12;
+  font-style: italic;
+  margin: 0px;
+}
+
+.racismo{
+  margin-top: 3em;
+  text-align: center;
+  width:auto;
+  height:220px;
+  border-radius:8px;
+}
+
+main{
+min-height: 100vh;
+}
+
+#infr{
+  text-align: justify;
+  overflow: visible;
+  padding: 2em;
+ 
+}
+ 
+.ttn{
+  text-align: center!important;
+  font-style: italic;
+  font-size: 18px;
+  padding:10px;
+  font-weight: bold;
+}
+
+.right{
+  display: block;
+  justify-content: right;
+  background: rgb(184, 172, 121);
+  width: 100%; 
+  font-style: italic;
+  font-size: 18px; 
+  text-align: left; 
+   
+}
+.right p{
+  margin:8px;
+  margin-top: 0px;
+} 
+
+.left{
+  background: rgb(168, 159, 121);
+  width: 100%;
+  font-style: italic;
+  font-size: 18px; 
+  text-align: right;
+ 
+}
+.left p{
+  margin:8px;
+  margin-top: 0px;
+} 
+
+
+.titulo{ 
+ font-style: italic;
+ font-size: 24px;
+ text-align: center;
+ padding: 1em; 
+ margin: auto;
+}
+
+.filme{
+  text-align: center;
+  margin: 0px;
+  padding: 1em;
+}
+
+div  a{
+  margin:8px;
+  margin-top: 0px;
+}
+
+.sobre{
+  height: 10em;
+  background-color: gray;
+}
+
+.footer{
+  background: black;
+  color:white;
+  text-align: center;
+  padding: 2em;
+}
+
+
+
+@media screen and (min-width: 420px){
+
+  header{
+    background-image: url("../img/capa.jpg");
+    background-size:cover;
+    background-position:center;
+    margin: 50px 0 0 0;
+    height: 90vh;
+  } 
+
+  header h1{
+    color: white;
+    width:100%;
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .header h1{
+    color: white;
+    width:90%;
+    text-align: left;
+    font-size: 40px;  
+  }
+  
+  
+.hamburguer{
+  display: none;
+}
+
+nav { 
+  width: 100%;
+  height: 50px!important;
+  padding: 1em 0;
+  font-size: 16px;
+  position: fixed;
+  background-color: white;
+  top: 0px;
+  box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.25);
+} 
+ 
+.show-nav{
+  padding: 16px 0 0 0;
+}
+
+div nav a{ 
+width: 90px;
+height: 20px;
+font-size: 20px;
+border:  1px solid;
+border-radius: 5px;
+color: black;
+margin: 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.nav {
+flex-direction: row;
+
+}
+}
